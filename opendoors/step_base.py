@@ -6,7 +6,7 @@ from dataclasses import dataclass
 from logging import Logger
 
 from opendoors.mysql import SqlDb
-from opendoors.utils import make_banner, get_prefixed_path
+from opendoors.utils import get_prefixed_path, make_banner
 
 
 @dataclass

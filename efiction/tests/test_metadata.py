@@ -1,7 +1,7 @@
 import datetime
 from unittest import TestCase
 
-from efiction.tests.test_utils import load_fixtures, create_efiction_converter
+from efiction.tests.test_utils import create_efiction_converter, load_fixtures
 from opendoors.utils import remove_output_files
 
 

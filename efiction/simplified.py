@@ -4,8 +4,8 @@ from logging import Logger
 
 from opendoors.mysql import SqlDb
 from opendoors.sql_utils import (
-    group_by_table,
     add_create_database,
+    group_by_table,
     parse_remove_comments,
     write_statements_to_file,
 )

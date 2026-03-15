@@ -1,6 +1,7 @@
-from .mysql import SqlDb
-from tempfile import NamedTemporaryFile
 from os import unlink
+from tempfile import NamedTemporaryFile
+
+from .mysql import SqlDb
 
 
 class BigInsert:

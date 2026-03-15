@@ -1,8 +1,8 @@
 from unittest import TestCase
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 
 from opendoors.config import ArchiveConfig
-from opendoors.progress import continue_from_last, update_done_steps, get_next_step
+from opendoors.progress import continue_from_last, get_next_step, update_done_steps
 from opendoors.step_base import StepBase, StepInfo
 from opendoors.utils import remove_output_files
 

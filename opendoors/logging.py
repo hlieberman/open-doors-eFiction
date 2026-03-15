@@ -3,8 +3,8 @@ Logging to console and file
 """
 import logging
 import os
-
 import sys
+
 from colorlog import ColoredFormatter
 
 

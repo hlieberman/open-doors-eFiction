@@ -5,15 +5,15 @@ from logging import Logger
 from pathlib import Path
 from typing import List
 
-from opendoors.mysql import SqlDb
 from opendoors.big_insert import BigInsert
+from opendoors.mysql import SqlDb
 from opendoors.utils import (
     get_full_path,
+    get_prefixed_path,
+    key_find,
+    make_banner,
     normalize,
     print_progress,
-    make_banner,
-    key_find,
-    get_prefixed_path,
 )
 
 

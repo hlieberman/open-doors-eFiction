@@ -1,8 +1,8 @@
-import json
 import copy
+import json
 from unittest.mock import MagicMock, patch
-import pytest
 
+import pytest
 
 from efiction.chapters import EFictionChapters
 from opendoors.config import ArchiveConfig
