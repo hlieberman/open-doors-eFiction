@@ -7,14 +7,14 @@ from logging import Logger
 from efiction.eFiction_table_defs import create_def
 from opendoors.mysql import SqlDb
 from opendoors.sql_utils import (
-    write_statements_to_file,
-    parse_remove_comments,
-    group_by_table,
     add_create_database,
+    group_by_table,
+    parse_remove_comments,
+    write_statements_to_file,
 )
 from opendoors.utils import (
-    copy_to_dir,
     check_if_file_exists,
+    copy_to_dir,
     get_full_path,
     get_prefixed_path,
 )

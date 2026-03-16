@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import atexit
 import configparser
-
 import sys
 
 from opendoors import progress

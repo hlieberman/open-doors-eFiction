@@ -1,6 +1,5 @@
 from configparser import ConfigParser
 from logging import Logger
-
 from typing import Dict, List
 
 from opendoors.mysql import OperationalError, ProgrammingError, SqlDb

@@ -2,7 +2,7 @@ from pathlib import Path
 from unittest import TestCase
 from unittest.mock import patch
 
-from opendoors.utils import make_banner, set_working_dir, get_prefixed_path
+from opendoors.utils import get_prefixed_path, make_banner, set_working_dir
 
 
 class UtilsTest(TestCase):

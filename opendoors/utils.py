@@ -6,10 +6,9 @@ import html
 import os
 import re
 import shutil
-from typing import Mapping
-from pathlib import Path
-
 import unicodedata
+from pathlib import Path
+from typing import Mapping
 
 
 def get_full_path(path):

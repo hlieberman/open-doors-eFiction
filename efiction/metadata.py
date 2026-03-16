@@ -5,21 +5,21 @@ from logging import Logger
 from unidecode import unidecode
 
 from efiction.tag_converter import TagConverter
+from opendoors.big_insert import BigInsert
 from opendoors.mysql import SqlDb
 from opendoors.sql_utils import (
+    add_create_database,
     parse_remove_comments,
     write_statements_to_file,
-    add_create_database,
-)
-from opendoors.utils import (
-    print_progress,
-    get_full_path,
-    normalize,
-    key_find,
-    get_prefixed_path,
 )
 from opendoors.thread_pool import ThreadedPool
-from opendoors.big_insert import BigInsert
+from opendoors.utils import (
+    get_full_path,
+    get_prefixed_path,
+    key_find,
+    normalize,
+    print_progress,
+)
 
 
 class EFictionMetadata:
